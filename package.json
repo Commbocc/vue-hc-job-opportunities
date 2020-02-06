@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name HcJobOpportunities --formats umd-min",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@hcflgov/vue-google-sheet-model": "^1.2.0",
     "core-js": "^3.4.4",
     "vue": "^2.6.10"
   },
